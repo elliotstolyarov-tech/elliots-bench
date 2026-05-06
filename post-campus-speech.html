@@ -11,9 +11,10 @@
       <a class="brand" href="index.html"><span class="brand-mark"><img src="assets/elliots-bench-logo.png" alt="" /></span><span>Elliot's Bench</span></a>
       <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav"><span></span><span></span></button>
       <nav class="site-nav" id="site-nav" aria-label="Primary navigation">
+        <a href="daily-docket.html">Daily Docket</a>
         <a href="posts.html">Posts</a>
         <a href="why.html">Why This Exists</a>
-        <a href="questions.html">Questions</a>
+        <a href="questions.html">Feedback</a>
       </nav>
     </header>
 
@@ -28,9 +29,27 @@
             legal advice, and uses a simplified issue to model balanced legal reasoning.
           </p>
         </header>
+        <aside class="brief-toolbar" aria-label="Bench Brief overview">
+          <div class="brief-meta">
+            <span>Bench Brief</span>
+            <span>Constitutional Law</span>
+            <span>Explainer</span>
+            <span>4 min read</span>
+            <span>Updated May 2026</span>
+          </div>
+          <nav class="brief-toc" aria-label="In this brief">
+            <span>In this brief</span>
+            <a href="#headline">Headline</a>
+            <a href="#law">Law</a>
+            <a href="#arguments">Arguments</a>
+            <a href="#turn">The Turn</a>
+            <a href="#why">Why It Matters</a>
+            <a href="#sources">Sources</a>
+          </nav>
+        </aside>
 
-        <section class="analysis-section">
-          <h2>Issue</h2>
+        <section class="analysis-section brief-intro" id="headline">
+          <h2>The Headline</h2>
           <p>
             A public college adopts a rule restricting disruptive demonstrations inside
             academic buildings during class hours. Students argue that the policy violates
@@ -39,8 +58,8 @@
           </p>
         </section>
 
-        <section class="analysis-section">
-          <h2>Law</h2>
+        <section class="analysis-section" id="law">
+          <h2>The Law</h2>
           <p>
             Public colleges are government actors, so the First Amendment matters. But the
             government can sometimes regulate the <a href="https://firstamendment.mtsu.edu/article/time-place-and-manner-restrictions/">time, place, and manner of speech</a>
@@ -49,16 +68,13 @@
           </p>
         </section>
 
-        <section class="side-by-side">
+        <section class="side-by-side" id="arguments">
           <section class="argument-card side-a">
             <p class="label">Side A</p>
             <h2>The Student Argument</h2>
             <p>
               Students could argue that protest is most meaningful when it happens where
-              the institution can actually hear it. If the rule gives administrators broad
-            discretion or is enforced mainly against unpopular viewpoints, it may function
-            as <a href="https://www.law.cornell.edu/wex/forums">viewpoint discrimination</a>
-            even if it sounds neutral on paper.
+              the institution can actually hear it. The <a href="https://www.aclu.org/documents/speech-campus">ACLU's campus speech guide</a> emphasizes that public colleges are government actors when they regulate student expression. If the rule gives administrators broad discretion or is enforced mainly against unpopular viewpoints, it may function as <a href="https://www.law.cornell.edu/wex/forums">viewpoint discrimination</a> even if it sounds neutral on paper. Students would also argue that vague disruption rules can chill speech before anyone actually violates a valid time, place, or manner limit.
             </p>
           </section>
           <section class="argument-card side-b">
@@ -66,15 +82,44 @@
             <h2>The College Argument</h2>
             <p>
               The college could answer that it is not banning a message, only protecting
-              classrooms from disruption during specific hours. Students can still protest
-              in other campus areas, publish arguments, organize meetings, and speak at
-              times that do not block access to education.
+              classrooms from disruption during specific hours. FIRE's discussion of <a href="https://www.thefire.org/research-learn/time-place-and-manner-limits-speech">time, place, and manner limits</a> explains why even protected speech can sometimes be regulated by when, where, and how it occurs. Students can still protest in other campus areas, publish arguments, organize meetings, and speak at times that do not block access to education. The college's strongest point is that a university has to protect both expression and the basic functioning of classes.
             </p>
           </section>
-        </section>
 
-        <section class="analysis-section">
-          <h2>Analysis</h2>
+        <section class="message-thread" aria-label="Madison and Marshall discuss the issue">
+          <div class="thread-heading">
+            <p class="eyebrow">Two friends, one legal question</p>
+            <h2>The Bench Chat</h2>
+            <p class="thread-deck">Madison and Marshall are good friends testing the strongest instincts behind each side.</p>
+          </div>
+          <div class="message blue-sue">
+            <span class="chat-name" tabindex="0">Madison<span class="name-popover">Madison watches how legal power affects individual liberty, representation, and the people outside the room where decisions get made.</span></span>
+            <p>A public college cannot just move protest out of sight because administrators dislike the message. If the rule is really about viewpoint or embarrassment, calling it a disruption policy should not save it.</p>
+          </div>
+          <div class="message red-ed">
+            <span class="chat-name" tabindex="0">Marshall<span class="name-popover">Marshall focuses on legal authority, institutional limits, text, tradition, and whether courts or elected branches should make the call.</span></span>
+            <p>True, but a classroom hallway during class is not the same as a public quad. Disruption changes the analysis because other students also have a right to access class and use campus buildings.</p>
+          </div>
+          <div class="message blue-sue">
+            <span class="chat-name" tabindex="0">Madison<span class="name-popover">Madison watches how legal power affects individual liberty, representation, and the people outside the room where decisions get made.</span></span>
+            <p>Then the policy has to be narrow and viewpoint-neutral. Students should know exactly what conduct is prohibited, and officials should not get broad discretion to decide which protests feel too uncomfortable.</p>
+          </div>
+          <div class="message red-ed">
+            <span class="chat-name" tabindex="0">Marshall<span class="name-popover">Marshall focuses on legal authority, institutional limits, text, tradition, and whether courts or elected branches should make the call.</span></span>
+            <p>Agreed. The school wins only if it regulates disruption, not disagreement. A rule about blocking doorways during class is very different from a rule against messages administrators think are divisive.</p>
+          </div>
+          <div class="message blue-sue">
+            <span class="chat-name" tabindex="0">Madison<span class="name-popover">Madison watches how legal power affects individual liberty, representation, and the people outside the room where decisions get made.</span></span>
+            <p>I also think location matters. Protest often works because it happens where people can see it. If every meaningful location is off limits, the school may leave students with speech rights that are technically alive but practically weak.</p>
+          </div>
+          <div class="message red-ed">
+            <span class="chat-name" tabindex="0">Marshall<span class="name-popover">Marshall focuses on legal authority, institutional limits, text, tradition, and whether courts or elected branches should make the call.</span></span>
+            <p>That is a fair concern. The strongest college policy would preserve real alternatives: visible outdoor spaces, clear permit rules, and enforcement that applies the same way no matter what side the students are on.</p>
+          </div>
+        </section>
+        </section>
+        <section class="analysis-section" id="turn">
+          <h2>The Turn</h2>
           <p>
             The legal question likely turns on how narrow the rule is and how it is applied.
             A carefully written policy aimed at noise and obstruction during class time is
@@ -84,12 +129,28 @@
             enforcement, and available alternatives.
           </p>
         </section>
-        <section class="sources-section">
+        <section class="analysis-section" id="why">
+          <h2>Why It Matters</h2>
+          <p>
+            Campus speech disputes are useful because they show how the same First Amendment
+            principles can protect student expression while also allowing schools to keep
+            classrooms functioning. The legal result often depends on the forum, the policy's
+            wording, and whether officials are regulating disruption or suppressing a viewpoint.
+          </p>
+        </section>
+        <section class="sources-section" id="sources">
           <h2>Sources</h2>
+          <p class="source-note">Sources are linked inline where possible and collected here so readers can check the legal basis for the brief.</p>
           <ul>
             <li><a href="https://www.law.cornell.edu/wex/first_amendment">Legal Information Institute, First Amendment overview</a></li>
             <li><a href="https://www.law.cornell.edu/wex/forums">Legal Information Institute, forums in First Amendment law</a></li>
             <li><a href="https://firstamendment.mtsu.edu/article/time-place-and-manner-restrictions/">The First Amendment Encyclopedia, time, place, and manner restrictions</a></li>
+            <li><a href="https://www.aclu.org/documents/speech-campus">ACLU, Speech on Campus</a></li>
+            <li><a href="https://www.thefire.org/research-learn/time-place-and-manner-limits-speech">FIRE, time, place, and manner limits on speech</a></li>
+            <li><a href="https://www.thefire.org/research-learn/fires-guide-free-speech-campus">FIRE's Guide to Free Speech on Campus</a></li>
+
+
+
           </ul>
         </section>
       </article>

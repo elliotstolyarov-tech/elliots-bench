@@ -6,6 +6,7 @@ A clean static website for a personal legal analysis platform aimed at college s
 
 - `index.html`: Homepage with hero, mission framing, and featured analysis.
 - `posts.html`: Blog-style posts index.
+- `daily-docket.html`: Coming-soon page for the future daily legal headline refresh.
 - `current-events.html`: Section for recent posts.
 - `past-analyses.html`: Archive landing page with category placeholders.
 - `timeline.html`: Placeholder for a future interactive timeline.
@@ -17,7 +18,8 @@ A clean static website for a personal legal analysis platform aimed at college s
 - `post-bruen.html`: Bench Brief with sources.
 - `post-west-virginia-epa.html`: Bench Brief with sources.
 - `why.html`: Mission page.
-- `questions.html`: Contact/questions prototype.
+- `questions.html`: Feedback form for topic ideas, corrections, and questions.
+- `thank-you.html`: Feedback form confirmation page.
 
 ## How to view
 

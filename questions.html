@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Questions | Elliot's Bench</title>
+    <title>Feedback | Elliot's Bench</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
@@ -11,24 +11,26 @@
       <a class="brand" href="index.html"><span class="brand-mark"><img src="assets/elliots-bench-logo.png" alt="" /></span><span>Elliot's Bench</span></a>
       <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav"><span></span><span></span></button>
       <nav class="site-nav" id="site-nav" aria-label="Primary navigation">
+        <a href="daily-docket.html">Daily Docket</a>
         <a href="posts.html">Posts</a>
         <a href="why.html">Why This Exists</a>
-        <a class="active" href="questions.html">Questions</a>
+        <a class="active" href="questions.html">Feedback</a>
       </nav>
     </header>
 
     <main class="page-shell contact-page">
       <section class="page-hero">
-        <p class="eyebrow">Contact</p>
-        <h1>Questions, topics, and feedback.</h1>
+        <p class="eyebrow">Feedback</p>
+        <h1>Send a topic, correction, or question.</h1>
         <p>
-          Use this page as the future home for reader questions, topic submissions, and
-          contact details. For now, the form is a front-end prototype.
+          Suggest a headline for the Daily Docket, flag something that needs a better
+          source, or send a legal issue you want Elliot's Bench to break down.
         </p>
       </section>
 
       <section class="contact-layout">
-        <form class="contact-form">
+        <form class="contact-form" name="feedback" method="POST" data-netlify="true" action="thank-you.html">
+          <input type="hidden" name="form-name" value="feedback" />
           <label>
             Name
             <input type="text" name="name" placeholder="Your name" />
@@ -38,18 +40,22 @@
             <input type="email" name="email" placeholder="you@example.com" />
           </label>
           <label>
-            Question or topic idea
+            Topic, correction, or note
             <textarea name="message" rows="6" placeholder="What legal issue should Elliot's Bench break down?"></textarea>
           </label>
-          <button class="button primary" type="submit">Send question</button>
-          <p class="form-note">Prototype only: connecting submissions will come in a later version.</p>
+          <button class="button primary" type="submit">Send feedback</button>
         </form>
 
         <aside class="contact-note">
-          <h2>Good topic ideas</h2>
+          <h2>Useful feedback</h2>
           <p>
-            The best questions involve real legal tension: a rule, competing values, and
-            plausible arguments on both sides.
+            The best topic ideas involve real legal tension: a headline, a rule, competing
+            values, and plausible arguments on both sides.
+          </p>
+          <p>
+            Page name options I considered: Feedback, Contact, Submit a Topic, Ask the
+            Bench, and Send a Docket Tip. I recommend Feedback for now because it covers
+            questions, corrections, and post ideas.
           </p>
         </aside>
       </section>

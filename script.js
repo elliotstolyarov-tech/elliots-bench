@@ -12,6 +12,10 @@ const contactForm = document.querySelector(".contact-form");
 
 if (contactForm) {
   contactForm.addEventListener("submit", (event) => {
+    if (contactForm.dataset.netlify === "true") {
+      return;
+    }
+
     event.preventDefault();
     const note = contactForm.querySelector(".form-note");
     note.textContent = "Thanks. In the next version, this form can connect to email or a database.";
