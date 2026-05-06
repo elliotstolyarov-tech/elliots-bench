@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Posts | Elliot's Bench</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html"><span class="brand-mark"><img src="assets/elliots-bench-logo.png" alt="" /></span><span>Elliot's Bench</span></a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav"><span></span><span></span></button>
+      <nav class="site-nav" id="site-nav" aria-label="Primary navigation">
+        <a class="active" href="posts.html">Posts</a>
+        <a href="why.html">Why This Exists</a>
+        <a href="questions.html">Questions</a>
+      </nav>
+    </header>
+
+    <main class="page-shell">
+      <section class="page-hero">
+        <p class="eyebrow">Legal breakdowns</p>
+        <h1>Posts</h1>
+        <p>
+          Start with the latest Bench Brief, browse every analysis, or jump into a topic
+          lane when you know what kind of legal issue you want.
+        </p>
+      </section>
+
+      <section class="posts-feature">
+        <div class="section-heading">
+          <p class="eyebrow">Featured Bench Brief</p>
+          <h2>Start here</h2>
+        </div>
+        <a class="post-preview" href="post-presidential-immunity.html">
+          <div>
+            <p class="post-kicker">Presidential Power</p>
+            <h2>Can a Former President Be Criminally Prosecuted for Official Acts?</h2>
+            <p>
+              A trial Bench Brief on presidential immunity, separation of powers, and the
+              line between official and unofficial conduct.
+            </p>
+          </div>
+          <span class="status-pill">Latest</span>
+        </a>
+      </section>
+
+      <section class="posts-library" aria-label="All Bench Briefs">
+        <div class="section-heading">
+          <p class="eyebrow">All Bench Briefs</p>
+          <h2>Read the analysis</h2>
+        </div>
+        <div class="filter-bar" aria-label="Filter Bench Briefs by topic">
+          <button class="filter-button active" type="button" data-filter="all">All</button>
+          <button class="filter-button" type="button" data-filter="scotus">SCOTUS</button>
+          <button class="filter-button" type="button" data-filter="executive">Executive Power</button>
+          <button class="filter-button" type="button" data-filter="rights">Rights</button>
+          <button class="filter-button" type="button" data-filter="administrative">Administrative Law</button>
+          <button class="filter-button" type="button" data-filter="campus">Campus</button>
+        </div>
+        <div class="post-list bench-brief-list">
+          <a class="post-row brief-card" href="post-presidential-immunity.html" data-topics="scotus executive">
+            <div>
+              <p class="post-kicker">Presidential Power</p>
+              <h2>Can a Former President Be Criminally Prosecuted for Official Acts?</h2>
+              <p>A trial Bench Brief on presidential immunity and separation of powers.</p>
+              <div class="post-meta" aria-label="Post metadata">
+                <span>SCOTUS</span>
+                <span>2024</span>
+                <span>5 min read</span>
+              </div>
+            </div>
+            <span class="status-pill">Presidential Power</span>
+          </a>
+          <a class="post-row brief-card" href="post-chevron.html" data-topics="scotus administrative">
+            <div>
+              <p class="post-kicker">Administrative Law</p>
+              <h2>Who Should Interpret Ambiguous Federal Laws?</h2>
+              <p>A trial Bench Brief on agency power and the end of Chevron deference.</p>
+              <div class="post-meta" aria-label="Post metadata">
+                <span>SCOTUS</span>
+                <span>2024</span>
+                <span>5 min read</span>
+              </div>
+            </div>
+            <span class="status-pill">Administrative Law</span>
+          </a>
+          <a class="post-row brief-card" href="post-west-virginia-epa.html" data-topics="scotus administrative">
+            <div>
+              <p class="post-kicker">Major Questions Doctrine</p>
+              <h2>Can the EPA Force a National Shift Away From Coal?</h2>
+              <p>A Bench Brief on climate regulation, agency power, and the major questions doctrine.</p>
+              <div class="post-meta" aria-label="Post metadata">
+                <span>SCOTUS</span>
+                <span>2022</span>
+                <span>5 min read</span>
+              </div>
+            </div>
+            <span class="status-pill">Agency Power</span>
+          </a>
+          <a class="post-row brief-card" href="post-dobbs.html" data-topics="scotus rights">
+            <div>
+              <p class="post-kicker">Substantive Due Process</p>
+              <h2>Who Gets to Decide Abortion Law After Dobbs?</h2>
+              <p>A Bench Brief on constitutional rights, democratic authority, and the end of Roe.</p>
+              <div class="post-meta" aria-label="Post metadata">
+                <span>SCOTUS</span>
+                <span>2022</span>
+                <span>5 min read</span>
+              </div>
+            </div>
+            <span class="status-pill">Rights</span>
+          </a>
+          <a class="post-row brief-card" href="post-bruen.html" data-topics="scotus rights">
+            <div>
+              <p class="post-kicker">Second Amendment</p>
+              <h2>How Far Does the Right to Carry a Gun in Public Go?</h2>
+              <p>A Bench Brief on public carry, gun regulation, and history-based constitutional tests.</p>
+              <div class="post-meta" aria-label="Post metadata">
+                <span>SCOTUS</span>
+                <span>2022</span>
+                <span>5 min read</span>
+              </div>
+            </div>
+            <span class="status-pill">Second Amendment</span>
+          </a>
+          <a class="post-row brief-card" href="post-affirmative-action.html" data-topics="scotus rights">
+            <div>
+              <p class="post-kicker">Equal Protection</p>
+              <h2>Can Colleges Consider Race in Admissions?</h2>
+              <p>A trial Bench Brief on affirmative action and equal protection.</p>
+              <div class="post-meta" aria-label="Post metadata">
+                <span>SCOTUS</span>
+                <span>2023</span>
+                <span>5 min read</span>
+              </div>
+            </div>
+            <span class="status-pill">Equal Protection</span>
+          </a>
+          <a class="post-row brief-card" href="post-campus-speech.html" data-topics="campus rights">
+            <div>
+              <p class="post-kicker">Constitutional Law</p>
+              <h2>When Can a Public College Regulate Campus Speech?</h2>
+              <p>
+                A student-focused example exploring speech rights, campus safety, and the
+                legal tension between open debate and institutional responsibility.
+              </p>
+              <div class="post-meta" aria-label="Post metadata">
+                <span>Campus</span>
+                <span>Explainer</span>
+                <span>4 min read</span>
+              </div>
+            </div>
+            <span class="status-pill">Campus</span>
+          </a>
+        </div>
+        <p class="empty-state" hidden>No Bench Briefs match that topic yet.</p>
+      </section>
+
+      <section class="section-hub browse-hub" aria-label="Browse by path">
+        <a class="hub-card current" href="current-events.html">
+          <p class="post-kicker">Browse</p>
+          <h2>Current Events</h2>
+          <p>Legal questions tied to news, politics, public debate, and institutions.</p>
+          <span>Open section</span>
+        </a>
+        <a class="hub-card archive" href="past-analyses.html">
+          <p class="post-kicker">Browse</p>
+          <h2>Cases & Doctrine</h2>
+          <p>Supreme Court cases, constitutional rules, statutes, and legal frameworks.</p>
+          <span>Open archive</span>
+        </a>
+        <a class="hub-card campus" href="post-campus-speech.html">
+          <p class="post-kicker">Browse</p>
+          <h2>Campus</h2>
+          <p>Issues that feel especially relevant to college students and universities.</p>
+          <span>Read campus brief</span>
+        </a>
+        <a class="hub-card timeline" href="timeline.html">
+          <p class="post-kicker">Future tool</p>
+          <h2>Timeline</h2>
+          <p>A future interactive history of posts, cases, laws, and legal turning points.</p>
+          <span>Open timeline</span>
+        </a>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Elliot's Bench</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
